@@ -1,0 +1,19 @@
+Command "daemon" is deprecated, and will be removed in Docker 1.16. Please run `dockerd` directly.
+time="2021-04-12T14:17:30.279419005Z" level=warning msg="[!] DON'T BIND ON ANY IP ADDRESS WITHOUT setting -tlsverify IF YOU DON'T KNOW WHAT YOU'RE DOING [!]" 
+time="2021-04-12T14:17:30.280872641Z" level=warning msg="could not change group /var/run/docker.sock to docker: group docker not found" 
+time="2021-04-12T14:17:30.281987544Z" level=info msg="libcontainerd: new containerd process, pid: 15839" 
+time="2021-04-12T14:17:30.309596459Z" level=warning msg="containerd: low RLIMIT_NOFILE changing to max" current=1024 max=4096 
+time="2021-04-12T14:17:31.342770325Z" level=info msg="Graph migration to content-addressability took 0.00 seconds" 
+time="2021-04-12T14:17:31.344913015Z" level=info msg="Loading containers: start." 
+time="2021-04-12T14:17:31.400780422Z" level=info msg="Firewalld running: false" 
+time="2021-04-12T14:17:31.502244026Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address" 
+time="2021-04-12T14:17:31.625124937Z" level=info msg="Loading containers: done." 
+time="2021-04-12T14:17:31.640883796Z" level=warning msg="failed to retrieve docker-runc version: exec: \"docker-runc\": executable file not found in $PATH" 
+time="2021-04-12T14:17:31.641402606Z" level=warning msg="failed to retrieve docker-init version" 
+time="2021-04-12T14:17:31.642337411Z" level=info msg="Daemon has completed initialization" 
+time="2021-04-12T14:17:31.642371455Z" level=info msg="Docker daemon" commit="0be3e21/1.13.1" graphdriver=overlay2 version=1.13.1 
+time="2021-04-12T14:17:31.647172648Z" level=info msg="API listen on /var/run/docker.sock" 
+time="2021-04-12T14:17:31.647197996Z" level=info msg="API listen on [::]:2375" 
+time="2021-04-12T14:17:53.930219390Z" level=info msg="Processing signal 'interrupt'" 
+time="2021-04-12T14:17:53.945314587Z" level=info msg="stopping containerd after receiving terminated" 
+time="2021-04-12T14:17:53.945507759Z" level=fatal msg="containerd: serve grpc" error="accept unix /var/run/docker/libcontainerd/docker-containerd.sock: use of closed network connection" 
